@@ -1,0 +1,35 @@
+x11-apps/xinit -minimal
+sys-auth/polkit systemd
+sys-apps/dbus systemd
+sys-boot/grub:2 device-mapper doc mount pc =sys-boot/grub-2.00_p5107-r1 ~amd64
+dev-libs/boost doc tools
+x11-wm/openbox imlib
+app-editors/vim vim-pager perl
+app-editors/emacs gnutls imagemagic libxml2 toolkit-scroll-bars wide-int xft motif
+dev-python/jinja -doc
+media-libs/mesa xorg gbm
+x11-libs/libdrm libkms video_cards_intel
+x11-base/xorg-server udev
+app-admin/conky apcupsd curl eve hddtemp imlib iostats lua lua-cairo lua-imlib math mpd  vim-syntax
+dev-java/oracle-jdk-bin nsplugin source 
+dev-lang/lua emacs
+net-im/pidgin gnutls sasl tcl
+media-gfx/gimp aalib curl postscript xpm
+media-libs/gegl lensfun raw
+app-misc/screen multiuser
+x11-misc/tint2 tint2conf
+www-plugins/adobe-flash 32bit
+media-sound/pulseaudio equalizer 
+dev-db/mariadb  jemalloc -sphinx 
+app-misc/sphinx id64 mysql postgres
+media-libs/libjpeg-turbo static-libs
+media-libs/libpng static-libs
+media-libs/libmng static-libs
+sys-libs/zlib static-libs
+media-libs/lcms static-libs
+media-libs/freetype static-libs
+app-arch/bzip2 static-libs
+virtual/jpeg static-libs
+media-gfx/splashutils fbcondecor -gpm
+dev-lisp/clisp threads
+sci-visualization/gnuplot bitmap emacs lua plotutils xemacs thin-splines latex
